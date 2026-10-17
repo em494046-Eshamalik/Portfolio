@@ -1,0 +1,8 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website by Habib Ur Rehman (ZGO Developers)",
+  "scripts": {
+    "start": "npx serve . -l 5173"
+  }
+}

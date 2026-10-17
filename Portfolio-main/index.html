@@ -1,0 +1,1564 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="assets/img/Icon.png" type="icon" />
+
+    <!-- REMIXICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
+    />
+
+    <!-- DEVICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css?v=31" />
+
+    <title>Portfolio </title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <div class="blob-animate"></div>
+      <nav class="nav container">
+        <a href="#" class="nav__logo"><span class="logo__highlight">ZGO</span> Developers</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#about" class="nav__link">About Me</a>
+            </li>
+            <li>
+              <a href="#projects" class="nav__link">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- CUSTOM CURSOR -->
+      <div class="cursor"></div>
+
+      <!-- HOME -->
+      <section class="home section section-top section-two">
+        <div class="home__shadow"></div>
+        <div class="home__container container grid">
+          <div class="home__data">
+            <h3 class="home__greeting">Hello, I'm</h3>
+            <h1 class="home__name">
+              Ayesha  <br />
+          Malik
+            </h1>
+          </div>
+
+          <div class="home__image">
+            <div class="blob-animate"></div>
+
+            <!-- Solar System Floating Animation with Circular Dashed Orbits & Glowing Colored Particles/Nodes -->
+            <div class="solar-system" aria-hidden="true">
+              <!-- Orbit 1: Inner Orbit (Cyan Dashed Track - 4 items, 90° apart) -->
+              <div class="solar-orbit solar-orbit--1">
+                <div class="solar-planet solar-planet--pos-top solar-planet--react" title="React">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--cyan orbit-dot--pos-right" title="Cyan Glowing Particle"></div>
+                <div class="solar-planet solar-planet--pos-bottom solar-planet--nextjs" title="Next.js">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" class="solar-planet__icon invert-dark" />
+                </div>
+                <div class="orbit-dot orbit-dot--gold orbit-dot--pos-left" title="Gold Glowing Particle"></div>
+              </div>
+
+              <!-- Orbit 2: Mid-Inner Orbit (Purple Dashed Track - 6 items, 60° apart) -->
+              <div class="solar-orbit solar-orbit--2">
+                <div class="solar-planet solar-planet--pos-30 solar-planet--typescript" title="TypeScript">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--purple orbit-dot--pos-right" title="Purple Glowing Particle"></div>
+                <div class="solar-planet solar-planet--pos-150 solar-planet--javascript" title="JavaScript">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--emerald orbit-dot--pos-210" title="Emerald Glowing Particle"></div>
+                <div class="solar-planet solar-planet--pos-left solar-planet--tailwind" title="Tailwind CSS">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--pink orbit-dot--pos-330" title="Pink Glowing Particle"></div>
+              </div>
+
+              <!-- Orbit 3: Main Orbit (Pink Dashed Track - 6 items, 60° apart) -->
+              <div class="solar-orbit solar-orbit--3">
+                <div class="solar-planet solar-planet--pos-top solar-planet--nodejs" title="Node.js">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--ruby orbit-dot--pos-60" title="Ruby Glowing Particle"></div>
+                <div class="solar-planet solar-planet--pos-120 solar-planet--figma" title="Figma">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--cyan orbit-dot--pos-bottom" title="Cyan Glowing Particle"></div>
+                <div class="solar-planet solar-planet--pos-240 solar-planet--git" title="Git">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--gold orbit-dot--pos-300" title="Gold Glowing Particle"></div>
+              </div>
+
+              <!-- Orbit 4: Outer Deep Space Orbit (Indigo Dashed Track - 6 items, 60° apart) -->
+              <div class="solar-orbit solar-orbit--4">
+                <div class="orbit-dot orbit-dot--purple orbit-dot--pos-30" title="Violet Glowing Particle"></div>
+                <div class="solar-planet solar-planet--pos-right solar-planet--python" title="Python">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="Python" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--gold orbit-dot--pos-150" title="Gold Glowing Particle"></div>
+                <div class="solar-planet solar-planet--pos-210 solar-planet--supabase" title="Supabase">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="Supabase" class="solar-planet__icon" />
+                </div>
+                <div class="orbit-dot orbit-dot--cyan orbit-dot--pos-left" title="Cyan Glowing Particle"></div>
+                <div class="solar-planet solar-planet--pos-330 solar-planet--vscode" title="VS Code">
+                  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="VS Code" class="solar-planet__icon" />
+                </div>
+              </div>
+            </div>
+
+            <img
+              src="assets/img/hero-profile1.png"
+              alt="Ayesha Malik - Profile Picture"
+              class="home__profile"
+            />
+          </div>
+
+          <div class="home__info">
+            <h3 class="home__split">Creative</h3>
+            <h2 class="home__profession-1">Full Stack</h2>
+            <h2 class="home__profession-2">Developer</h2>
+          </div>
+
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/esha-malik-5aa2a4432"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a
+              href="https://github.com/em494046-Eshamalik"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-github-line"></i>
+            </a>
+            <a
+              href="https://wa.me/+923007947402"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a
+              href="#"
+              class="home__social-link"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+          </div>
+
+          <a
+            href="assets/pdf/Ayesha-Malik-Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="home__cv"
+          >
+            Resume / CV <i class="ri-file-text-line"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about section" id="about">
+        <div class="about__shadow"></div>
+
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title">
+              <span>Creativity</span>
+              <br />
+              Is My Passion
+            </h2>
+            <p class="about__description">
+              I'm a <b>Next.js Developer</b> passionate about experimenting
+              with new <b> skills and creativity.</b>
+              Driven by learning and curiosity, I'm always looking to explore
+              and learn new development skills.
+            </p>
+
+            <a
+              href="assets/pdf/Ayesha-Malik-Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="button"
+              >Resume <i class="ri-file-list-2-line"></i
+            ></a>
+          </div>
+
+          <div class="about__image">
+            <div class="blob-animate"></div>
+            <div class="blob-animate"></div>
+            <div class="about__profile-card">
+              <img
+                src="assets/img/hero-profile1.png"
+                alt="Ayesha Malik - Profile Picture"
+                class="about__profile"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="projects section" id="projects">
+        <h2 class="section__title projects__section-title">
+          <span class="projects__title-main">I make Incredible</span> <br />
+          <span class="projects__title-gradient">Projects</span>
+        </h2>
+
+        <div class="projects__container">
+          <div class="projects__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>01</h1>
+                  <h3 style="font-size: 0.58rem; letter-spacing: 0.6px; white-space: nowrap;">Web Development</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    Instagram <br />
+                    Clone
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="A social media login interface inspired by Instagram. This project focuses on creating a familiar user interface, styling form elements, and improving the overall user experience."
+                  >
+                    HTML, CSS, &amp; JavaScript
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/instagramclone.png"
+                    alt="Instagram Clone"
+                    class="projects__img"
+                    style="object-position: center;"
+                  />
+                  <a
+                    href="https://instagram-clone-navy-gamma.vercel.app/login.html"
+                    target="_blank"
+                    class="projects__button"
+                    title="View Instagram Clone"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>02</h1>
+                  <h3 style="font-size: 0.58rem; letter-spacing: 0.6px; white-space: nowrap;">Travel Planner</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    Travel Budget <br />
+                    Planner
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="A travel planning website that showcases popular destinations with estimated budgets, trip durations, and seasonal recommendations. It features a responsive card-based design to help users compare travel options and explore destinations based on their budget."
+                  >
+                    HTML, CSS, &amp; JavaScript
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/travelplanner.png"
+                    alt="Travel Budget Planner"
+                    class="projects__img"
+                    style="object-position: top center;"
+                  />
+                  <a
+                    href="https://res.cloudinary.com/saylani-welfare/image/upload/v1783067447/assignment/assignment/1783067445_0_iloqwlmh.png"
+                    target="_blank"
+                    class="projects__button"
+                    title="View Travel Budget Planner"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>03</h1>
+                  <h3 style="font-size: 0.58rem; letter-spacing: 0.6px; white-space: nowrap;">Weather Application</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    Weather Forecast <br />
+                    App
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="A weather forecasting application concept designed to display weather-related information in an easy-to-understand format. The project provides experience in building information-focused interfaces and organizing weather data."
+                  >
+                    HTML, CSS, &amp; JavaScript
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/weatherapp.png"
+                    alt="Weather Forecast App"
+                    class="projects__img"
+                    style="object-position: center;"
+                  />
+                  <a
+                    href="https://weather-forecast-phi-kohl.vercel.app/"
+                    target="_blank"
+                    class="projects__button"
+                    title="View Weather Forecast App"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>04</h1>
+                  <h3 style="font-size: 0.62rem; letter-spacing: 0.8px; white-space: nowrap;">Food &amp; Restaurant</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    StitchFood <br />
+                    Website
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="A food-related website designed to present food items in an attractive and organized layout. The project focuses on visual presentation, clear navigation, and a user-friendly browsing experience."
+                  >
+                    HTML, CSS, &amp; JavaScript
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/stitchfood.png"
+                    alt="StitchFood Website"
+                    class="projects__img"
+                    style="object-position: top center;"
+                  />
+                  <a
+                    href="https://stichfood.vercel.app/"
+                    target="_blank"
+                    class="projects__button"
+                    title="View StitchFood Website"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>05</h1>
+                  <h3 style="font-size: 0.58rem; letter-spacing: 0.6px; white-space: nowrap;">Artificial Intelligence</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    Cyber Hub <br />
+                    Website
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="An AI-focused web project created to explore modern interface design and AI-powered user experiences. It highlights the integration of a clean layout with an interactive application interface."
+                  >
+                    HTML, CSS, &amp; JavaScript
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/cyberhub.png"
+                    alt="Cyber Hub Website"
+                    class="projects__img"
+                    style="object-position: top center;"
+                  />
+                  <a
+                    href="https://stich-ai.vercel.app/"
+                    target="_blank"
+                    class="projects__button"
+                    title="View Cyber Hub Website"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>06</h1>
+                  <h3 style="font-size: 0.58rem; letter-spacing: 0.6px; white-space: nowrap;">Education Technology</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    EduTrack <br />
+                    Dashboard
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="An education-focused project designed around student tracking and academic organization. Its concept focuses on presenting educational information clearly and making academic management easier for users."
+                  >
+                    HTML, CSS, &amp; JavaScript
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/edutrack.png"
+                    alt="EduTrack Dashboard"
+                    class="projects__img"
+                    style="object-position: top center;"
+                  />
+                  <a
+                    href="https://edu-track-chi-snowy.vercel.app/"
+                    target="_blank"
+                    class="projects__button"
+                    title="View EduTrack Dashboard"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>07</h1>
+                  <h3 style="font-size: 0.62rem; letter-spacing: 0.8px; white-space: nowrap;">E-Commerce</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    Bag Store <br />
+                    Website
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="An online bag-store website concept focused on presenting products in an attractive shopping layout. This project demonstrates product presentation, website styling, and the design principles of an e-commerce interface."
+                  >
+                    HTML, CSS, &amp; JavaScript
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/bagstore.png"
+                    alt="Bag Store Website"
+                    class="projects__img"
+                    style="object-position: top center;"
+                  />
+                  <a
+                    href="https://bag-indol.vercel.app/"
+                    target="_blank"
+                    class="projects__button"
+                    title="View Bag Store Website"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>08</h1>
+                  <h3 style="font-size: 0.62rem; letter-spacing: 0.8px; white-space: nowrap;">Web Forms</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    Academic <br />
+                    Form
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="An academic form interface designed to collect and organize student or academic information. This project demonstrates form layout design, structured input fields, and a simple data-entry experience."
+                  >
+                    HTML, CSS, &amp; JavaScript
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/academicform.png"
+                    alt="Academic Form"
+                    class="projects__img"
+                    style="object-position: top center;"
+                  />
+                  <a
+                    href="https://academic-form.vercel.app/"
+                    target="_blank"
+                    class="projects__button"
+                    title="View Academic Form"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>09</h1>
+                  <h3 style="font-size: 0.58rem; letter-spacing: 0.6px; white-space: nowrap;">UI Design &amp; Web</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    Saylani Logo <br />
+                    Task
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="A web design task focused on recreating or presenting a Saylani-related logo and visual layout. The project helps demonstrate attention to alignment, spacing, visual consistency, and basic website styling."
+                  >
+                    HTML &amp; CSS
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/saylanitask.jpg"
+                    alt="Saylani Logo Task"
+                    class="projects__img"
+                    style="object-position: center;"
+                  />
+                  <a
+                    href="https://logo-sylani-task.vercel.app/"
+                    target="_blank"
+                    class="projects__button"
+                    title="View Saylani Logo Task"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+
+              <article class="projects__card swiper-slide">
+                <div class="blob"></div>
+
+                <div class="projects__number">
+                  <h1>10</h1>
+                  <h3 style="font-size: 0.58rem; letter-spacing: 0.6px; white-space: nowrap;">Crowdfunding</h3>
+                </div>
+
+                <div class="projects__data">
+                  <h1 class="projects__title">
+                    Ek Cup Chai <br />
+                    (Buy Me A Coffee)
+                  </h1>
+                  <p class="projects__subtitle">Techstack used</p>
+                  <p
+                    class="projects__description"
+                    title="A creator support and crowdfunding web application inspired by Buy Me A Coffee. Built to help digital creators receive donations and engage with supporters through interactive and animated user experiences."
+                  >
+                    React JS, Tailwind CSS, &amp; Framer Motion
+                  </p>
+                </div>
+
+                <div class="projects__image">
+                  <img
+                    src="assets/img/project-1.png"
+                    alt="Ek Cup Chai - Buy Me A Coffee"
+                    class="projects__img"
+                    style="object-position: center;"
+                  />
+                  <a
+                    href="https://buy-me-coffee-project.vercel.app/"
+                    target="_blank"
+                    class="projects__button"
+                    title="View Ek Cup Chai Project"
+                  >
+                    <i class="ri-arrow-right-up-long-line"></i>
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+
+          <!-- ORBIT BASE & CONTROLS -->
+          <div class="projects__orbit-base">
+            <div class="projects__orbit-arc"></div>
+            <div class="projects__orbit-controls">
+              <div class="projects__orbit-badge">
+                <span class="projects__orbit-dot"></span>
+                <span>ORBIT 3D</span>
+              </div>
+
+              <div class="projects__orbit-nav">
+                <button class="projects__orbit-btn" id="projects-prev" aria-label="Previous Project">
+                  <i class="ri-arrow-left-s-line"></i>
+                </button>
+                <div class="projects__orbit-counter">
+                  <span id="projects-current" class="projects__orbit-current">01</span>
+                  <span class="projects__orbit-divider">/</span>
+                  <span class="projects__orbit-total">10</span>
+                </div>
+                <button class="projects__orbit-btn" id="projects-next" aria-label="Next Project">
+                  <i class="ri-arrow-right-s-line"></i>
+                </button>
+              </div>
+
+              <div class="projects__orbit-hint">
+                <span>DRAG TO ROTATE</span>
+                <i class="ri-drag-move-fill"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section class="work section">
+        <h2 class="section__title">
+          <span>My Work</span>
+          <br />
+          Experience
+        </h2>
+
+        <div class="work__container container grid">
+          <div class="work__tabs">
+            <!-- Button Experience -->
+            <button class="work__button work-active" data-target="#experience">
+              Experience <i class="ri-briefcase-3-line"></i>
+            </button>
+
+            <!-- Button Education -->
+            <button class="work__button" data-target="#education">
+              Education <i class="ri-graduation-cap-line"></i>
+            </button>
+          </div>
+
+          <div class="work__area">
+            <div class="work__line" id="work-line">
+              <div class="work__line-progress">
+                <span class="work__line-glow-dot"></span>
+              </div>
+              <div class="work__milestones" id="work-milestones"></div>
+            </div>
+
+            <!-- Content Experience -->
+            <div class="work__content work-active" data-content id="experience">
+              <div class="work__card">
+                <div class="work__data">
+                  <div class="work__data-top">
+                    <div>
+                      <h1 class="work__title">Frontend Web Developer</h1>
+                      <h3 class="work__subtitle">Phaton</h3>
+                    </div>
+                    <h2 class="work__year">
+                      Oct-<br />
+                      Jan-26
+                    </h2>
+                  </div>
+
+                  <div class="work__progress">
+                    <div class="work__progress-header">
+                      <span class="work__progress-loading">L o a d i n g . . .</span>
+                      <span class="work__progress-value">100%</span>
+                    </div>
+                    <div class="work__capsule-outer">
+                      <div class="work__capsule-track">
+                        <div class="work__progress-fill" data-progress="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="work__description">
+                  Completed a Frontend Web Developer internship, where I
+                  collaborated with a team to build a fully functional
+                  e-commerce platform, developing responsive and dynamic
+                  interfaces using React.js and Tailwind CSS.
+                </p>
+              </div>
+
+              <div class="work__card">
+                <div class="work__data">
+                  <div class="work__data-top">
+                    <div>
+                      <h1 class="work__title">Frontend Web Developer</h1>
+                      <h3 class="work__subtitle">Skillify Zone</h3>
+                    </div>
+                    <h2 class="work__year">
+                      Aug-July<br />
+                      2025
+                    </h2>
+                  </div>
+
+                  <div class="work__progress">
+                    <div class="work__progress-header">
+                      <span class="work__progress-loading">L o a d i n g . . .</span>
+                      <span class="work__progress-value">100%</span>
+                    </div>
+                    <div class="work__capsule-outer">
+                      <div class="work__capsule-track">
+                        <div class="work__progress-fill" data-progress="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="work__description">
+                  Completed a 4-project Frontend Web Developer internship,
+                  creating a personal portfolio, landing page, weather app, and
+                  a music website clone using HTML, CSS, and JavaScript.
+                </p>
+              </div>
+            </div>
+
+            <!-- Content Education -->
+            <div class="work__content" data-content id="education">
+              <div class="work__card">
+                <div class="work__data">
+                  <div class="work__data-top">
+                    <div>
+                      <h1 class="work__title">B.Ed</h1>
+                      <h3 class="work__subtitle">
+                        Government College Women University Faisalabad (GCWUF)
+                      </h3>
+                    </div>
+                    <h2 class="work__year">2024-Present</h2>
+                  </div>
+
+                  <div class="work__progress">
+                    <div class="work__progress-header">
+                      <span class="work__progress-loading">L o a d i n g . . .</span>
+                      <span class="work__progress-value">75%</span>
+                    </div>
+                    <div class="work__capsule-outer">
+                      <div class="work__capsule-track">
+                        <div class="work__progress-fill" data-progress="75"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="work__description">
+                  Currently pursuing B.Ed. to develop teaching skills and understand
+                  effective educational practices.
+                </p>
+              </div>
+
+              <div class="work__card">
+                <div class="work__data">
+                  <div class="work__data-top">
+                    <div>
+                      <h1 class="work__title">
+                        Intermediate <br />
+                        (FA)
+                      </h1>
+                      <h3 class="work__subtitle">
+                        Government Model Girls Higher Secondary School
+                      </h3>
+                    </div>
+                    <h2 class="work__year">2023-2024</h2>
+                  </div>
+
+                  <div class="work__progress">
+                    <div class="work__progress-header">
+                      <span class="work__progress-loading">L o a d i n g . . .</span>
+                      <span class="work__progress-value">100%</span>
+                    </div>
+                    <div class="work__capsule-outer">
+                      <div class="work__capsule-track">
+                        <div class="work__progress-fill" data-progress="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="work__description">
+                  Completed FA, strengthening communication, general knowledge,
+                  and academic understanding.
+                </p>
+              </div>
+
+              <div class="work__card">
+                <div class="work__data">
+                  <div class="work__data-top">
+                    <div>
+                      <h1 class="work__title">
+                        Matric <br />
+                        (Arts)
+                      </h1>
+                      <h3 class="work__subtitle">
+                        Government Public Girls High School
+                      </h3>
+                    </div>
+                    <h2 class="work__year">2021-2022</h2>
+                  </div>
+
+                  <div class="work__progress">
+                    <div class="work__progress-header">
+                      <span class="work__progress-loading">L o a d i n g . . .</span>
+                      <span class="work__progress-value">100%</span>
+                    </div>
+                    <div class="work__capsule-outer">
+                      <div class="work__capsule-track">
+                        <div class="work__progress-fill" data-progress="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <p class="work__description">
+                  Completed Matriculation in Arts, developing a foundation in
+                  academic learning and essential skills.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS & TECH STACK -->
+      <section class="skills section" id="services">
+        <h2 class="section__title">Skills & <span>Tech Stack</span></h2>
+        <p class="skills__subtitle">
+          Technologies and tools I leverage to build scalable, high-performance web applications
+        </p>
+
+        <!-- Category Filter Pills -->
+        <div class="skills__filters">
+          <button class="skills__filter-btn active" data-filter="all">
+            <i class="ri-apps-2-line"></i> All Tech <span class="skills__filter-count">36</span>
+          </button>
+          <button class="skills__filter-btn" data-filter="skills">
+            <i class="ri-code-s-slash-line"></i> Development Skills <span class="skills__filter-count">12</span>
+          </button>
+          <button class="skills__filter-btn" data-filter="tools">
+            <i class="ri-tools-line"></i> Development Tools <span class="skills__filter-count">12</span>
+          </button>
+          <button class="skills__filter-btn" data-filter="vibecoding">
+            <i class="ri-sparkling-fill"></i> Vibe Coding <span class="skills__filter-count">12</span>
+          </button>
+        </div>
+
+        <div class="skills__bento-container container">
+          <!-- CARD 1: Development Skills -->
+          <div class="skills__card" data-category="skills">
+            <div class="blob skills__card-blob"></div>
+
+            <div class="skills__card-text">
+              <h3 class="skills__card-title">Development Skills</h3>
+              <p class="skills__card-description">
+                Modern frontend and backend technologies I use to build fast, scalable, and responsive web applications.
+              </p>
+            </div>
+
+            <div class="skills__grid">
+              <div class="skills__icon-box" style="--i: 1" title="Next.js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" class="skills__icon-img invert-dark" alt="Next.js" />
+              </div>
+              <div class="skills__icon-box" style="--i: 2" title="React">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" class="skills__icon-img" alt="React" />
+              </div>
+              <div class="skills__icon-box" style="--i: 3" title="TypeScript">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" class="skills__icon-img" alt="TypeScript" />
+              </div>
+              <div class="skills__icon-box" style="--i: 4" title="JavaScript">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" class="skills__icon-img" alt="JavaScript" />
+              </div>
+              <div class="skills__icon-box" style="--i: 5" title="Tailwind CSS">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" class="skills__icon-img" alt="Tailwind CSS" />
+              </div>
+              <div class="skills__icon-box" style="--i: 6" title="Framer Motion">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/framermotion/framermotion-original.svg" class="skills__icon-img" alt="Framer Motion" />
+              </div>
+              <div class="skills__icon-box" style="--i: 7" title="HTML5">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" class="skills__icon-img" alt="HTML5" />
+              </div>
+              <div class="skills__icon-box" style="--i: 8" title="CSS3">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" class="skills__icon-img" alt="CSS3" />
+              </div>
+              <div class="skills__icon-box" style="--i: 9" title="Node.js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" class="skills__icon-img" alt="Node.js" />
+              </div>
+              <div class="skills__icon-box" style="--i: 10" title="Express">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg" class="skills__icon-img invert-dark" alt="Express" />
+              </div>
+              <div class="skills__icon-box" style="--i: 11" title="MongoDB">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" class="skills__icon-img" alt="MongoDB" />
+              </div>
+              <div class="skills__icon-box" style="--i: 12" title="Supabase">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" class="skills__icon-img" alt="Supabase" />
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 2: Development Tools -->
+          <div class="skills__card" data-category="tools">
+            <div class="blob skills__card-blob skills__card-blob--cyan"></div>
+
+            <div class="skills__card-text">
+              <h3 class="skills__card-title">Development Tools</h3>
+              <p class="skills__card-description">
+                Essential design, testing, and productivity tools that streamline my workflow and boost development speed.
+              </p>
+            </div>
+
+            <div class="skills__grid">
+              <div class="skills__icon-box" style="--i: 1" title="VS Code">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" class="skills__icon-img" alt="VS Code" />
+              </div>
+              <div class="skills__icon-box" style="--i: 2" title="Git">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" class="skills__icon-img" alt="Git" />
+              </div>
+              <div class="skills__icon-box" style="--i: 3" title="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" class="skills__icon-img invert-dark" alt="GitHub" />
+              </div>
+              <div class="skills__icon-box" style="--i: 4" title="Postman">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postman/postman-original.svg" class="skills__icon-img" alt="Postman" />
+              </div>
+              <div class="skills__icon-box" style="--i: 5" title="Figma">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" class="skills__icon-img" alt="Figma" />
+              </div>
+              <div class="skills__icon-box" style="--i: 6" title="Photoshop">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" class="skills__icon-img" alt="Photoshop" />
+              </div>
+              <div class="skills__icon-box" style="--i: 7" title="Illustrator">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/illustrator/illustrator-original.svg" class="skills__icon-img" alt="Illustrator" />
+              </div>
+              <div class="skills__icon-box" style="--i: 8" title="Vite">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" class="skills__icon-img" alt="Vite" />
+              </div>
+              <div class="skills__icon-box" style="--i: 9" title="Vercel">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vercel/vercel-original.svg" class="skills__icon-img invert-dark" alt="Vercel" />
+              </div>
+              <div class="skills__icon-box" style="--i: 10" title="Chrome">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/chrome/chrome-original.svg" class="skills__icon-img" alt="Chrome" />
+              </div>
+              <div class="skills__icon-box" style="--i: 11" title="npm">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" class="skills__icon-img" alt="npm" />
+              </div>
+              <div class="skills__icon-box" style="--i: 12" title="MySQL">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original.svg" class="skills__icon-img" alt="MySQL" />
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD 3: Vibe Coding -->
+          <div class="skills__card" data-category="vibecoding">
+            <div class="blob skills__card-blob skills__card-blob--vibe"></div>
+
+            <div class="skills__card-text">
+              <h3 class="skills__card-title">Vibe Coding</h3>
+              <p class="skills__card-description">
+                AI-first development, intelligent agents, and prompt-driven workflows to ideate and ship products with unprecedented velocity.
+              </p>
+            </div>
+
+            <div class="skills__grid">
+              <div class="skills__icon-box" style="--i: 1" title="Cursor">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2.5L3.5 7.5V16.5L12 21.5L20.5 16.5V7.5L12 2.5Z" fill="#18181b" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+                  <path d="M12 12L3.5 7.5M12 12V21.5M12 12L20.5 7.5" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+                  <path d="M12 2.5L20.5 7.5L12 12L3.5 7.5L12 2.5Z" fill="#ffffff" fill-opacity="0.15"/>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 2" title="Claude">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="#D97706">
+                  <path d="m13.2 2.5 1.3 4.2 3.7-2.6 1.8 1.8-2.6 3.7 4.2 1.3v2.6l-4.2 1.3 2.6 3.7-1.8 1.8-3.7-2.6-1.3 4.2h-2.6l-1.3-4.2-3.7 2.6-1.8-1.8 2.6-3.7-4.2-1.3v-2.6l4.2-1.3-2.6-3.7 1.8-1.8 3.7 2.6 1.3-4.2h2.6z"/>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 3" title="ChatGPT">
+                <i class="ri-openai-fill" style="color: #10a37f; font-size: 2.3rem;"></i>
+              </div>
+              <div class="skills__icon-box" style="--i: 4" title="GitHub Copilot">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <path d="M4 12c0-4.4 3.6-8 8-8s8 3.6 8 8c0 3.5-2.3 6.5-5.5 7.5L12 22l-2.5-2.5C6.3 18.5 4 15.5 4 12z" fill="#0284c7" opacity="0.2"/>
+                  <path d="M12 4a8 8 0 0 0-8 8c0 3.5 2.3 6.5 5.5 7.5L12 22l2.5-2.5C17.7 18.5 20 15.5 20 12a8 8 0 0 0-8-8z" stroke="#38bdf8" stroke-width="1.8"/>
+                  <circle cx="9" cy="11.5" r="1.5" fill="#38bdf8"/>
+                  <circle cx="15" cy="11.5" r="1.5" fill="#38bdf8"/>
+                  <path d="M9 15.5c1 .8 2 1 3 1s2-.2 3-1" stroke="#38bdf8" stroke-width="1.6" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 5" title="v0 by Vercel">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <rect width="24" height="24" rx="6" fill="#09090b" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+                  <path d="M7 16L12 7l5 9H7z" stroke="#ffffff" stroke-width="1.8" stroke-linejoin="round"/>
+                  <circle cx="12" cy="13" r="1.5" fill="#ffffff"/>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 6" title="Windsurf">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 13c3-3 6-3 9 0s6 3 9 0M3 17c3-3 6-3 9 0s6 3 9 0M3 9c3-3 6-3 9 0s6 3 9 0" stroke="#00f2fe" stroke-width="2.2" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 7" title="Bolt.new">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <path d="M13 2L3 14h8l-2 8 12-13h-8l2-7z" fill="#f59e0b" stroke="#f59e0b" stroke-width="1" stroke-linejoin="round"/>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 8" title="Lovable">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="url(#lovableGrad)"/>
+                  <defs>
+                    <linearGradient id="lovableGrad" x1="2" y1="3" x2="22" y2="21.35" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#ff007a"/>
+                      <stop offset="1" stop-color="#7928ca"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 9" title="Google Gemini">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 2C12 7.5 7.5 12 2 12C7.5 12 12 16.5 12 22C12 16.5 16.5 12 22 12C16.5 12 12 7.5 12 2Z" fill="url(#geminiGrad)"/>
+                  <defs>
+                    <linearGradient id="geminiGrad" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#4E75FF"/>
+                      <stop offset="0.5" stop-color="#9C52FF"/>
+                      <stop offset="1" stop-color="#FF52C4"/>
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 10" title="Perplexity">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 3v18M3 12h18M5.6 5.6l12.8 12.8M18.4 5.6L5.6 18.4" stroke="#22b8cd" stroke-width="2.2" stroke-linecap="round"/>
+                  <circle cx="12" cy="12" r="3" fill="#132738" stroke="#22b8cd" stroke-width="1.8"/>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 11" title="DeepSeek">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <path d="M3 15c2-6 7-10 13-10 3 0 5 2 5 5 0 4-4 8-10 8-3 0-6-1-8-3z" fill="#1e88e5" opacity="0.3"/>
+                  <path d="M3 15c2-6 7-10 13-10 3 0 5 2 5 5 0 4-4 8-10 8-3 0-6-1-8-3z" stroke="#3b82f6" stroke-width="1.8" stroke-linejoin="round"/>
+                  <circle cx="16" cy="9" r="1.5" fill="#ffffff"/>
+                  <path d="M18 10c-1 3-3 4-6 4" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+                </svg>
+              </div>
+              <div class="skills__icon-box" style="--i: 12" title="Replit">
+                <svg class="skills__icon-img" viewBox="0 0 24 24" fill="none">
+                  <rect x="3" y="4" width="7" height="6" rx="1.5" fill="#f26207"/>
+                  <rect x="10" y="9" width="7" height="6" rx="1.5" fill="#f26207"/>
+                  <rect x="3" y="14" width="7" height="6" rx="1.5" fill="#f26207"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="testimonials section">
+        <h2 class="section__title">
+          <span>About Me</span>
+        </h2>
+
+        <div class="testimonials__container container grid">
+          <!-- Testimonial Cards 1-->
+          <div class="testimonial__content">
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/gcwuf-logo.jpg"
+                    alt="Government College Women University Faisalabad (GCWUF)"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Government College Women University Faisalabad (GCWUF)</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Currently pursuing B.Ed. to develop teaching skills and understand effective educational practices.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/smit-logo.png"
+                    alt="Saylani Mass IT Training (SMIT)"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Saylani Mass IT Training (SMIT)</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Currently learning Web & Mobile App Development to build technical skills and create user-friendly websites.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/punjab-gov-logo.png"
+                    alt="Government Public Girls High School"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Government Public Girls High School</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Completed Matriculation in Arts, developing a foundation in academic learning and essential skills.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/higher-secondary-school.jpg"
+                    alt="Government Model Girls Higher Secondary School"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Government Model Girls Higher Secondary School</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Completed FA, strengthening communication, general knowledge, and academic understanding.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/bano-qabil-logo.png"
+                    alt="Bano Qabil"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Bano Qabil</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Completed Digital Marketing training to learn online promotion, content strategies, and digital platforms.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <!-- Testimonial Cards 2-->
+          <div class="testimonial__content testimonials__reverse">
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/gcwuf-logo.jpg"
+                    alt="Government College Women University Faisalabad (GCWUF)"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Government College Women University Faisalabad (GCWUF)</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Currently pursuing B.Ed. to develop teaching skills and understand effective educational practices.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/smit-logo.png"
+                    alt="Saylani Mass IT Training (SMIT)"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Saylani Mass IT Training (SMIT)</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Currently learning Web & Mobile App Development to build technical skills and create user-friendly websites.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/punjab-gov-logo.png"
+                    alt="Government Public Girls High School"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Government Public Girls High School</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Completed Matriculation in Arts, developing a foundation in academic learning and essential skills.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/higher-secondary-school.jpg"
+                    alt="Government Model Girls Higher Secondary School"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Government Model Girls Higher Secondary School</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Completed FA, strengthening communication, general knowledge, and academic understanding.
+                </p>
+              </div>
+            </article>
+
+            <article class="testimonials__card">
+              <div class="blob"></div>
+
+              <div class="testimonials__data">
+                <div class="testimonials__img-box">
+                  <img
+                    src="assets/img/bano-qabil-logo.png"
+                    alt="Bano Qabil"
+                    class="testimonials__img testimonials__img--logo"
+                  />
+                </div>
+
+                <h2 class="testimonials__name">Bano Qabil</h2>
+
+                <div class="testimonial__rating">
+                  <div class="testimonial__stars">
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                    <i class="ri-star-line"></i>
+                  </div>
+
+                  <h3 class="testimonials__number">5.0</h3>
+                </div>
+
+                <p>
+                  Completed Digital Marketing training to learn online promotion, content strategies, and digital platforms.
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__data">
+            <h2 class="section__title">Contact Me</h2>
+
+            <p class="contact__description">Tell me about your next project.</p>
+
+            <button class="contact__button button" id="contact-btn">
+              Copy Email <i class="ri-file-copy-line"></i>
+              <!-- Email -->
+              <span class="contact__email" id="contact-email"
+                >eshamalik2849@gmail.com</span
+              >
+            </button>
+          </div>
+
+          <div class="contact__content grid">
+            <div class="contact__info grid">
+              <div>
+                <h3 class="contact__title">Email</h3>
+                <address class="contact__address">
+                  eshamalik2849@gmail.com
+                </address>
+              </div>
+
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <address class="contact__address">
+                  Faisalabad, Pakistan
+                </address>
+              </div>
+            </div>
+
+            <div class="contact__social">
+              <h3 class="contact__title">Social Media</h3>
+
+              <div class="contact__links">
+                <a
+                  href="https://www.linkedin.com/in/esha-malik-5aa2a4432"
+                  target="_blank"
+                  class="contact__link"
+                >
+                  Linkedin
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+
+                <a
+                  href="https://github.com/em494046-Eshamalik"
+                  target="_blank"
+                  class="contact__link"
+                >
+                  GitHub
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+
+                <a
+                  href="https://wa.me/+923007947402"
+                  target="_blank"
+                  class="contact__link"
+                >
+                  WhatsApp
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+
+                <a
+                  href="#"
+                  class="contact__link"
+                >
+                  FaceBook
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="contact__write">
+              <h3 class="contact__title">Write Me & We'll Talk</h3>
+
+              <div class="contact__links">
+                <a
+                  href="https://wa.me/+923007947402"
+                  target="_blank"
+                  class="contact__link"
+                >
+                  WhatsApp
+                  <i class="ri-arrow-right-up-long-line"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer grid">
+      <div class="blob-animate"></div>
+
+      <div class="footer__copy">
+        All Rights Reserved By <span>ZGO Developers</span>
+      </div>
+
+      <div class="footer__year">
+        &#169;
+        <span id="footer-year">2025</span>
+      </div>
+    </footer>
+
+    <!-- SCROLLREVEAL -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- ANIME JS -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs/lib/anime.iife.min.js"></script>
+
+    <!-- SWIPER JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="assets/js/main.js?v=16"></script>
+  </body>
+</html>
